@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+
+}
+
+h1 {
+    color: green;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: brown;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    color: grey;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+body {
+    background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+img {
+    width: auto;
+    height: auto;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    border:rgb(34, 193, 195);
+    border-radius: 10px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.portfolio-card {
+    margin: auto;
+    height: 500px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
